@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:f="http://xmlns.jcp.org/jsf/core"
+    xmlns:p="http://primefaces.org/ui"
+    >
+
+<f:view>
+    <h:head>
+        <title>Access</title>
+        <meta content='text/html; charset=UTF-8' http-equiv="Content-Type" />
+        <link type="text/css" rel="stylesheet" href="resources/css/index.css"/>
+        <h:outputStylesheet library="jakarta.faces" value=""/>
+    </h:head>
+
+    <h:body >
+        <fieldset>
+            <legend>Access Portal</legend>
+            <h:form>
+                <h:outputLabel for="username" value="Enter email" aria-placeholder="User
+                " />
+                <h:inputText id="username" required="true" requiredMessage="username/email field cannot be empty"
+                    value="#{User.userName}" />
+                <h:message for="username" styleClass="error" />
+
+                <br />
+                <h:outputLabel for="password" value="Enter password" />
+                <h:inputSecret id="password" required="true" requiredMessage="password field cannot be empty"
+                    value="#{User.password}" />
+                <h:message for="password" styleClass="error" />
+                <br />
+                <h:commandButton value="Access" action="#{User.validateUsernamePassword}" />
+                <br />
+            </h:form>
+        </fieldset>
+    </h:body>
+</f:view>
+
+</html>

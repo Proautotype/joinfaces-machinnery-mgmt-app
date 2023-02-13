@@ -1,0 +1,1175 @@
+2023.02.09 18:03:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\lsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.09 18:03:17 INFO  logging to file C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\metals.log
+2023.02.09 18:03:17 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle' for client Visual Studio Code 1.75.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AmpomahWinston/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.09 18:03:18 INFO  time: initialize in 1.03s
+2023.02.09 18:03:20 WARN  Build server is not auto-connectable.
+2023.02.09 18:03:20 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\WarExampleApplication.java
+2023.02.09 18:03:21 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:03:21 INFO  time: code lens generation in 1.39s
+2023.02.09 18:05:08 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\DummyBean.java
+2023.02.09 18:05:09 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/DummyBean.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/DummyBean.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:23 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\WarExampleApplication.java
+2023.02.09 18:05:24 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:33 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2667)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1533)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1532)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:33 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.DefinitionProvider.definition(DefinitionProvider.scala:83)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionResult$1(MetalsLanguageServer.scala:2730)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionResult(MetalsLanguageServer.scala:2730)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2706)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1533)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1532)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:34 WARN  code navigation does not work for the file 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\WarExampleApplication.java' because it doesn't belong to a build target.
+2023.02.09 18:05:35 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1577)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:35 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2667)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1533)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1532)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:36 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:36 INFO  time: code lens generation in 1.45s
+2023.02.09 18:05:36 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.DefinitionProvider.definition(DefinitionProvider.scala:83)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionResult$1(MetalsLanguageServer.scala:2730)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionResult(MetalsLanguageServer.scala:2730)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2706)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1533)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1532)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 18:05:36 WARN  code navigation does not work for the file 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\WarExampleApplication.java' because it doesn't belong to a build target.
+Feb 09, 2023 6:24:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.09 18:25:30 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/WarExampleApplication.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 19:19:45 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\MachineryApp.java
+2023.02.09 19:20:42 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Feb 09, 2023 7:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.09 19:22:40 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\MachineryApp.java
+2023.02.09 19:23:27 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.09 19:35:10 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\MachineryApp.java
+Feb 09, 2023 7:41:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Feb 09, 2023 7:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Feb 09, 2023 7:41:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 09, 2023 8:57:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.09 21:07:04 INFO  shutting down Metals
+2023.02.10 13:00:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\lsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.10 13:00:35 INFO  logging to file C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\metals.log
+2023.02.10 13:00:35 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AmpomahWinston/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.10 13:00:36 INFO  time: initialize in 1.4s
+2023.02.10 13:00:39 WARN  Build server is not auto-connectable.
+2023.02.10 13:00:39 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\MachineryApp.java
+2023.02.10 13:00:41 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.10 13:00:41 INFO  time: code lens generation in 2.8s
+2023.02.10 13:00:42 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.10 13:00:47 INFO  running 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\gradlew.bat --console=plain --init-script C:\Users\AMPOMA~1\AppData\Local\Temp\metals6427804571783952693\init-script.gradle bloopInstall'
+2023.02.10 13:00:48 INFO  
+2023.02.10 13:00:48 INFO  Welcome to Gradle 7.6!
+2023.02.10 13:00:48 INFO  
+2023.02.10 13:00:48 INFO  Here are the highlights of this release:
+2023.02.10 13:00:48 INFO   - Added support for Java 19.
+2023.02.10 13:00:48 INFO   - Introduced `--rerun` flag for individual task rerun.
+2023.02.10 13:00:48 INFO   - Improved dependency block for test suites to be strongly typed.
+2023.02.10 13:00:48 INFO   - Added a pluggable system for Java toolchains provisioning.
+2023.02.10 13:00:48 INFO  
+2023.02.10 13:00:48 INFO  For more details see https://docs.gradle.org/7.6/release-notes.html
+2023.02.10 13:00:48 INFO  
+2023.02.10 13:00:48 INFO  Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+2023.02.10 13:00:51 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.10 13:00:51 INFO  time: code lens generation in 1.56s
+2023.02.10 13:02:53 INFO  > Task :configureBloopInstall
+2023.02.10 13:02:55 INFO  > Task :bloopInstall
+2023.02.10 13:02:55 INFO  
+2023.02.10 13:02:55 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+2023.02.10 13:02:55 INFO  
+2023.02.10 13:02:55 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2023.02.10 13:02:55 INFO  
+2023.02.10 13:02:55 INFO  See https://docs.gradle.org/7.6/userguide/command_line_interface.html#sec:command_line_warnings
+2023.02.10 13:02:55 INFO  
+2023.02.10 13:02:55 INFO  BUILD SUCCESSFUL in 2m 7s
+2023.02.10 13:02:55 INFO  2 actionable tasks: 2 executed
+2023.02.10 13:02:55 INFO  time: ran 'gradle bloopInstall' in 2m7s
+2023.02.10 13:02:55 INFO  Attempting to connect to the build server...
+2023.02.10 13:02:55 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.2.1 defined at C:\Users\AmpomahWinston\.bloop\bloop.json
+2023.02.10 13:02:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\bsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.10 13:02:59 INFO  time: Connected to build server in 4.62s
+2023.02.10 13:02:59 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.10 13:02:59 INFO  time: Imported build in 0.29s
+2023.02.10 13:03:03 INFO  time: indexed workspace in 3.79s
+2023.02.10 13:03:51 INFO  compiling joinfaces-gradle-war-example (2 java sources)
+2023.02.10 13:03:52 INFO  compiling joinfaces-gradle-war-example-test (1 java source)
+2023.02.10 13:03:52 INFO  time: compiled joinfaces-gradle-war-example in 1.56s
+2023.02.10 13:03:54 INFO  time: compiled joinfaces-gradle-war-example-test in 1.49s
+2023.02.10 13:06:56 INFO  shutting down Metals
+2023.02.10 13:06:56 INFO  Shut down connection with build server.
+2023.02.12 07:41:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\lsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2023.02.12 07:41:46 INFO  logging to file C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\metals.log[0m
+2023.02.12 07:41:46 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle' for client Visual Studio Code 1.75.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AmpomahWinston/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.12 07:41:47 INFO  time: initialize in 1s[0m
+2023.02.12 07:41:48 INFO  Attempting to connect to the build server...[0m
+2023.02.12 07:41:48 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.2.1 defined at C:\Users\AmpomahWinston\.bloop\bloop.json[0m
+2023.02.12 07:41:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\bsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2023.02.12 07:41:51 INFO  time: Connected to build server in 3.06s[0m
+2023.02.12 07:41:51 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.02.12 07:41:51 INFO  time: Imported build in 0.18s[0m
+2023.02.12 07:41:53 INFO  time: indexed workspace in 1.97s[0m
+Feb 12, 2023 7:42:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.02.12 07:42:02 INFO  compiling joinfaces-gradle-war-example (9 java sources)[0m
+2023.02.12 07:42:04 WARN  javac exited with exit code 1[0m
+2023.02.12 07:42:04 INFO  time: compiled joinfaces-gradle-war-example in 1.47s[0m
+2023.02.12 10:40:05 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 10:40:06 WARN  javac exited with exit code 1[0m
+2023.02.12 10:40:06 INFO  time: compiled joinfaces-gradle-war-example in 1.27s[0m
+2023.02.12 10:52:52 INFO  compiling joinfaces-gradle-war-example (11 java sources)[0m
+2023.02.12 10:52:53 WARN  javac exited with exit code 1[0m
+2023.02.12 10:52:53 INFO  time: compiled joinfaces-gradle-war-example in 1.23s[0m
+2023.02.12 11:20:58 INFO  compiling joinfaces-gradle-war-example (11 java sources)[0m
+2023.02.12 11:20:59 WARN  javac exited with exit code 1[0m
+2023.02.12 11:20:59 INFO  time: compiled joinfaces-gradle-war-example in 1.26s[0m
+2023.02.12 11:33:27 INFO  compiling joinfaces-gradle-war-example (11 java sources)[0m
+2023.02.12 11:33:29 WARN  javac exited with exit code 1[0m
+2023.02.12 11:33:29 INFO  time: compiled joinfaces-gradle-war-example in 1.29s[0m
+2023.02.12 11:45:23 INFO  compiling joinfaces-gradle-war-example (11 java sources)[0m
+2023.02.12 11:45:24 WARN  javac exited with exit code 1[0m
+2023.02.12 11:45:24 INFO  time: compiled joinfaces-gradle-war-example in 1.47s[0m
+2023.02.12 11:47:12 INFO  compiling joinfaces-gradle-war-example (11 java sources)[0m
+2023.02.12 11:47:13 WARN  javac exited with exit code 1[0m
+2023.02.12 11:47:13 INFO  time: compiled joinfaces-gradle-war-example in 1.37s[0m
+2023.02.12 12:04:17 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 12:04:18 WARN  javac exited with exit code 1[0m
+2023.02.12 12:04:18 INFO  time: compiled joinfaces-gradle-war-example in 1.33s[0m
+2023.02.12 12:04:35 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 12:04:37 WARN  javac exited with exit code 1[0m
+2023.02.12 12:04:37 INFO  time: compiled joinfaces-gradle-war-example in 1.57s[0m
+2023.02.12 12:04:40 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 12:04:41 WARN  javac exited with exit code 1[0m
+2023.02.12 12:04:41 INFO  time: compiled joinfaces-gradle-war-example in 1.36s[0m
+2023.02.12 12:17:59 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 12:18:01 WARN  javac exited with exit code 1[0m
+2023.02.12 12:18:01 INFO  time: compiled joinfaces-gradle-war-example in 1.43s[0m
+2023.02.12 12:43:31 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 12:43:33 WARN  javac exited with exit code 1[0m
+2023.02.12 12:43:33 INFO  time: compiled joinfaces-gradle-war-example in 1.4s[0m
+2023.02.12 13:02:34 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 13:02:36 WARN  javac exited with exit code 1[0m
+2023.02.12 13:02:36 INFO  time: compiled joinfaces-gradle-war-example in 1.29s[0m
+2023.02.12 13:08:23 INFO  compiling joinfaces-gradle-war-example (10 java sources)[0m
+2023.02.12 13:08:24 WARN  javac exited with exit code 1[0m
+2023.02.12 13:08:24 INFO  time: compiled joinfaces-gradle-war-example in 1.26s[0m
+2023.02.12 14:39:06 INFO  shutting down Metals[0m
+2023.02.12 14:39:07 INFO  Shut down connection with build server.[0m
+2023.02.12 14:39:07 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.02.12 15:37:17 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\lsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2023.02.12 15:37:21 INFO  logging to file C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\metals.log[0m
+2023.02.12 15:37:21 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle' for client Visual Studio Code 1.75.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AmpomahWinston/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.12 15:37:27 INFO  time: initialize in 5.41s[0m
+2023.02.12 15:37:32 INFO  Attempting to connect to the build server...[0m
+2023.02.12 15:37:32 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.2.1 defined at C:\Users\AmpomahWinston\.bloop\bloop.json[0m
+2023.02.12 15:37:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\bsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2023.02.12 15:37:44 INFO  time: Connected to build server in 13s[0m
+2023.02.12 15:37:44 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.02.12 15:37:46 INFO  time: Imported build in 0.62s[0m
+2023.02.12 15:37:55 INFO  time: indexed workspace in 9.7s[0m
+2023.02.12 19:14:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\lsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.12 19:14:26 INFO  logging to file C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\metals.log
+2023.02.12 19:14:26 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AmpomahWinston/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.12 19:14:30 INFO  time: initialize in 4.43s
+2023.02.12 19:14:31 INFO  Attempting to connect to the build server...
+2023.02.12 19:14:31 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.2.1 defined at C:\Users\AmpomahWinston\.bloop\bloop.json
+2023.02.12 19:14:33 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.12 19:14:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\bsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.12 19:14:34 INFO  time: Connected to build server in 3.21s
+2023.02.12 19:14:34 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.12 19:14:35 INFO  time: Imported build in 0.15s
+2023.02.12 19:14:37 INFO  time: indexed workspace in 1.79s
+2023.02.12 19:14:37 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.12 19:14:39 WARN  javac exited with exit code 1
+2023.02.12 19:14:39 INFO  time: compiled joinfaces-gradle-war-example in 1.74s
+2023.02.12 19:14:39 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.12 19:14:41 WARN  javac exited with exit code 1
+2023.02.12 19:14:41 INFO  time: compiled joinfaces-gradle-war-example in 2.16s
+2023.02.12 19:14:41 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.12 19:14:44 WARN  javac exited with exit code 1
+2023.02.12 19:14:44 INFO  time: compiled joinfaces-gradle-war-example in 2.45s
+2023.02.12 23:16:14 INFO  shutting down Metals
+2023.02.12 23:16:14 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.13 09:18:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\lsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.13 09:18:11 INFO  logging to file C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\metals.log
+2023.02.13 09:18:11 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AmpomahWinston/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.13 09:18:12 INFO  time: initialize in 1.45s
+2023.02.13 09:18:15 INFO  Attempting to connect to the build server...
+2023.02.13 09:18:15 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.2.1 defined at C:\Users\AmpomahWinston\.bloop\bloop.json
+2023.02.13 09:18:16 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/MachineryApp.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.13 09:18:16 INFO  time: code lens generation in 1.51s
+2023.02.13 09:18:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\bsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.13 09:18:18 INFO  time: Connected to build server in 3.93s
+2023.02.13 09:18:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.13 09:18:19 INFO  time: Imported build in 0.19s
+2023.02.13 09:18:21 INFO  time: indexed workspace in 1.91s
+2023.02.13 09:18:21 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:18:23 WARN  javac exited with exit code 1
+2023.02.13 09:18:23 INFO  time: compiled joinfaces-gradle-war-example in 1.65s
+2023.02.13 09:18:24 WARN  Could not load snapshot text for C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\MachineryApp.java
+2023.02.13 09:19:47 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:19:48 WARN  javac exited with exit code 1
+2023.02.13 09:19:48 INFO  time: compiled joinfaces-gradle-war-example in 1.25s
+2023.02.13 09:29:12 INFO  shutting down Metals
+2023.02.13 09:29:12 INFO  Shut down connection with build server.
+2023.02.13 09:40:01 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\lsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.13 09:40:02 INFO  logging to file C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\metals.log
+2023.02.13 09:40:02 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AmpomahWinston/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.13 09:40:03 INFO  time: initialize in 1.05s
+2023.02.13 09:40:05 INFO  Attempting to connect to the build server...
+Feb 13, 2023 9:40:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.02.13 09:40:05 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.2.1 defined at C:\Users\AmpomahWinston\.bloop\bloop.json
+Feb 13, 2023 9:40:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.02.13 09:40:08 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/services/UserService.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/services/UserService.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.13 09:40:08 INFO  time: code lens generation in 1.97s
+2023.02.13 09:40:09 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/services/UserService.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/services/UserService.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2667)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1533)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1532)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.13 09:40:11 ERROR text document: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/services/UserService.javajava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/AmpomahWinston/Downloads/Compressed/joinfaces-gradle/src/main/java/org/joinfaces/example/services/UserService.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.DefinitionProvider.definition(DefinitionProvider.scala:83)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionResult$1(MetalsLanguageServer.scala:2730)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionResult(MetalsLanguageServer.scala:2730)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2706)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1533)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1532)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.02.13 09:40:11 WARN  code navigation does not work for the file 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\services\UserService.java' because it doesn't belong to a build target.
+2023.02.13 09:40:11 WARN  no build target for: C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\services\UserService.java
+2023.02.13 09:40:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\.metals\bsp.trace.json or C:\Users\AmpomahWinston\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.13 09:40:12 INFO  time: Connected to build server in 7.3s
+2023.02.13 09:40:12 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.13 09:40:13 INFO  time: Imported build in 0.37s
+2023.02.13 09:40:16 INFO  time: indexed workspace in 3.44s
+2023.02.13 09:40:17 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:40:18 WARN  javac exited with exit code 1
+2023.02.13 09:40:18 INFO  time: compiled joinfaces-gradle-war-example in 1.6s
+2023.02.13 09:40:18 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:40:20 WARN  javac exited with exit code 1
+2023.02.13 09:40:20 INFO  time: compiled joinfaces-gradle-war-example in 1.72s
+2023.02.13 09:40:20 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:40:20 WARN  Could not load snapshot text for C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\MachineryApp.java
+2023.02.13 09:40:22 WARN  javac exited with exit code 1
+2023.02.13 09:40:22 INFO  time: compiled joinfaces-gradle-war-example in 1.54s
+2023.02.13 09:40:22 WARN  Could not load snapshot text for C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\MachineryApp.java
+2023.02.13 09:42:56 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:42:59 WARN  javac exited with exit code 1
+2023.02.13 09:42:59 INFO  time: compiled joinfaces-gradle-war-example in 2.35s
+2023.02.13 09:43:25 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:43:27 WARN  javac exited with exit code 1
+2023.02.13 09:43:27 INFO  time: compiled joinfaces-gradle-war-example in 1.52s
+2023.02.13 09:44:12 INFO  compiling joinfaces-gradle-war-example (10 java sources)
+2023.02.13 09:44:14 WARN  javac exited with exit code 1
+2023.02.13 09:44:14 INFO  time: compiled joinfaces-gradle-war-example in 1.37s
+2023.02.13 09:44:14 INFO  compiling joinfaces-gradle-war-example (10 java sources)
+2023.02.13 09:44:15 WARN  javac exited with exit code 1
+2023.02.13 09:44:15 INFO  time: compiled joinfaces-gradle-war-example in 1.32s
+2023.02.13 09:44:48 INFO  compiling joinfaces-gradle-war-example (10 java sources)
+2023.02.13 09:44:50 WARN  javac exited with exit code 1
+2023.02.13 09:44:50 INFO  time: compiled joinfaces-gradle-war-example in 1.36s
+2023.02.13 09:45:09 INFO  compiling joinfaces-gradle-war-example (10 java sources)
+2023.02.13 09:45:09 ERROR code navigation does not work for the file 'C:\Users\AmpomahWinston\Downloads\Compressed\joinfaces-gradle\src\main\java\org\joinfaces\example\repository\UserRepository.java' because the build target joinfaces-gradle-war-example is being compiled. Wait until compilation is finished and try again.
+2023.02.13 09:45:10 WARN  javac exited with exit code 1
+2023.02.13 09:45:10 INFO  time: compiled joinfaces-gradle-war-example in 1.32s
+2023.02.13 09:45:10 INFO  compiling joinfaces-gradle-war-example (10 java sources)
+2023.02.13 09:45:11 WARN  javac exited with exit code 1
+2023.02.13 09:45:11 INFO  time: compiled joinfaces-gradle-war-example in 1.29s
+2023.02.13 09:46:01 INFO  compiling joinfaces-gradle-war-example (10 java sources)
+2023.02.13 09:46:02 WARN  javac exited with exit code 1
+2023.02.13 09:46:02 INFO  time: compiled joinfaces-gradle-war-example in 1.34s
+2023.02.13 09:46:31 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:46:33 WARN  javac exited with exit code 1
+2023.02.13 09:46:33 INFO  time: compiled joinfaces-gradle-war-example in 1.34s
+2023.02.13 09:46:33 INFO  compiling joinfaces-gradle-war-example (9 java sources)
+2023.02.13 09:46:34 WARN  javac exited with exit code 1
+2023.02.13 09:46:34 INFO  time: compiled joinfaces-gradle-war-example in 1.24s
+2023.02.13 09:53:17 INFO  compiling joinfaces-gradle-war-example (8 java sources)
+2023.02.13 09:53:18 WARN  javac exited with exit code 1
+2023.02.13 09:53:18 INFO  time: compiled joinfaces-gradle-war-example in 1.26s
+Feb 13, 2023 10:00:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.13 10:22:58 INFO  shutting down Metals
+2023.02.13 10:22:58 INFO  Shut down connection with build server.

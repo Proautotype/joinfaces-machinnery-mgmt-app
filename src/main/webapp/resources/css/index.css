@@ -1,0 +1,107 @@
+:root {
+    --bg-red: #d98b8b;
+    --bg-white: rgb(250, 250, 245);
+    --legend-color: rgb(45, 45, 45);
+}
+
+body {
+    font-family: monospace;
+    background: linear-gradient(to top, var(--bg-white), var(--bg-red));
+    overflow: hidden;
+    height: 100vh;
+    object-fit: contain;
+    display: grid;
+    place-items: center;
+}
+
+.error {
+    width: 90%;
+    transition: 0.5s all ease-in-out;
+    padding: 5px;
+    background-color: #ff8e8e;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+fieldset {
+    border-radius: 5px;
+    padding: 0px;
+    border: 2px solid white;
+    padding-top: 10px;
+}
+
+legend {
+    font-size: large;
+    background-color: var(--legend-color);
+    color: white;
+    padding: 5px;
+    text-decoration: wavy;
+    border-radius: 5px;
+}
+
+form {
+    display: grid;
+    place-items: center;
+    width: 350px;
+    padding: 5px;
+    /* border: 3px solid white; */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input,
+label,
+select {
+    width: 90%;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bolder;
+    font-size: large;
+    letter-spacing: -1px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    transition: 0.2s all ease-in-out;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff5a;
+    margin-top: 5px;
+    border-bottom: 2px solid rgb(114, 95, 95);
+    padding: 5px;
+    position: relative;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: var(--legend-color);
+    color: var(--bg-white);
+    height: 35px;
+    width: 93%;
+    font-weight: bolder;
+}
+
+input:focus,
+select:focus {
+    background: #ffffff;
+    border-bottom: 5px solid rgb(114, 95, 95);
+    border-bottom-color: linear-gradient(#fff, #cd3);
+}
+
+option {
+    background-color: #ff8e8e;
+    padding: 5px;
+    font-size: 1em;
+    height: 20px !important;
+
+}
+
+select {
+    height: 40px;
+    width: 325px;
+}

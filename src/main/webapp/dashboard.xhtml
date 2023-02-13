@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets" 
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Dashboard</title>
+    <script type="text/javascript" src="https://kit.fontawesome.com/ce47a210d5.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js" integrity="sha512-v3ygConQmvH0QehvQa6gSvTE2VdBZ6wkLOlmK7Mcy2mZ0ZF9saNbbk19QeaoTHdWIEiTlWmrwAL4hS8ElnGFbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css" href="" />
+    <Style type="text/css">
+        :root {
+            --bg:#252525;
+            --wrapper:#fee;
+        }
+
+        body {
+            background-color: var(--bg);
+            box-sizing: border-box;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .dashboard-wrapper {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .hero{
+            font-size: 3em;
+            text-transform: uppercase;
+            color:white;
+        }
+    </Style>
+</h:head>
+<h:body>
+    <div class="dashboard-wrapper">
+        <f:view contentType="text/html;charset=UTF-8" encoding="UTF-8">
+        <h:head>
+
+        </h:head>
+        <h:body>
+            <p:textEditor secure="false"/>
+        </h:body>
+    </f:view>
+    </div>
+</h:body>
+
+</html>
